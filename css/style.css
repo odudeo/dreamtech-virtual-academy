@@ -1,1 +1,70 @@
-/* DreamTech Styles */
+:root{
+  --primary:#0A2E5C;
+  --secondary:#D4AF37;
+  --light:#F8F9FA;
+  --white:#FFFFFF;
+}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:var(--light);
+  color:#333;
+}
+
+header{
+  background:var(--primary);
+  color:white;
+  padding:20px;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:bold;
+  color:var(--secondary);
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:10px;
+}
+
+.hero{
+  background:linear-gradient(
+    rgba(10,46,92,.9),
+    rgba(10,46,92,.9)
+  );
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+
+.btn{
+  background:var(--secondary);
+  color:black;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.section{
+  padding:60px 20px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 3px 10px rgba(0,0,0,.1);
+  margin-bottom:20px;
+}
+
+footer{
+  background:var(--primary);
+  color:white;
+  text-align:center;
+  padding:30px;
+}
