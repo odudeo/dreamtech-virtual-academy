@@ -1,1 +1,1 @@
-# dreamtech-virtual-academy
+# dreamtech-international-virtual-academy
